@@ -1,0 +1,45 @@
+.Banner-Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Banner {
+  width: 80vw;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Banner-Header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.Banner-Contents {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.Banner-Button {
+  background: transparent;
+  border: none;
+  padding: 16px 32px;
+  margin-top: 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: 4px white solid;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.Banner-Button:hover {
+  border: 4px transparent solid;
+  background: white;
+  color: #26547c;
+}
